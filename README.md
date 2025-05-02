@@ -1,6 +1,8 @@
 
 ## 🎵 Spotify Music Player Clone
 ![image alt](https://github.com/MrTusharkumar/Spotify-Music-player/blob/a6757b7d5b21b0e173af59e166128c04bbcb7e0f/Preview.png)
+
+
   A responsive and interactive Spotify-inspired music player built with modern web technologies. This project replicates core Spotify functionalities such as play, pause, next/previous track, and playlist management, offering a smooth and intuitive user experience.
 
   ## 🔧 Features
