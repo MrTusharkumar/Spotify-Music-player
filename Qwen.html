@@ -1,0 +1,49 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manually Position Right Section</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+            height: 100vh; /* Full viewport height */
+        }
+
+        .left-section {
+            background-color: #f4f4f9;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .right-section {
+            position: absolute; /* Use absolute positioning for manual control */
+            top: 100px; /* Top position */
+            right: 50px; /* Right position */
+            width: 30%; /* Width of the section */
+            background-color: #ffffff;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <h1>Left Section</h1>
+            <!-- Add your content here -->
+        </div>
+        <div class="right-section">
+            <h1>Right Section</h1>
+            <!-- Add your content here -->
+        </div>
+    </div>
+</body>
+</html>
